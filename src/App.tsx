@@ -120,7 +120,7 @@ function App() {
           <div className="relative pl-8 border-l-2 border-primary">
             <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-0"></div>
             <h3 className="text-xl font-semibold">Backend Developer Intern - MoneyView</h3>
-            <p className="text-gray-600">Aug 2021 - 2023</p>
+            <p className="text-gray-600">Aug 2021 - Jan 2023</p>
             <div className="p-6 rounded-2xl shadow-lg space-y-6 mt-6">
               {/* Loan Eligibility Predictor */}
               <div>
