@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+// import {  FaGithub } from 'react-icons/fa';
+import {  FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { motion } from 'framer-motion';
@@ -250,13 +251,13 @@ function App() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-12">Get In Touch</h2>
           <div className="flex justify-center space-x-6">
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.2 }}
               href="https://github.com/AK47-rgb594"
               className="text-gray-700 hover:text-primary text-2xl"
             >
               <FaGithub />
-            </motion.a>
+            </motion.a> */}
             <motion.a 
               whileHover={{ scale: 1.2 }}
               href="https://www.linkedin.com/in/amith-athreya-2b48b6236/"
